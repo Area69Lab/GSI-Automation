@@ -53,19 +53,26 @@ jobs:
        - name: Download Stock Rom & Generate GSI
          run: sudo ./ErfanGSIs/url2GSI.sh $ROM_URL $ROM_NAME
        
-       - name: Zip GSI  
+       - name: Zip Aonly and upload to Bitsend  
          run: |
               mkdir final
               zip -r final/GSI-Aonly.zip /home/runner/work/actions_build_ErfanGSIs/actions_build_ErfanGSIs/ErfanGSIs/output/*-Aonly-*.img
-              zip -r final/GSI-AB.zip /home/runner/work/actions_build_ErfanGSIs/actions_build_ErfanGSIs/ErfanGSIs/output/*-AB-*.img
-              zip -r final/GSI-INFO.zip /home/runner/work/actions_build_ErfanGSIs/actions_build_ErfanGSIs/ErfanGSIs/output/*-AB-*.txt .
-       
-       - name: Upload GSI to BitSend
-         run: |
               curl -sL https://git.io/file-transfer | sh
               ./transfer bit final/GSI-Aonly.zip
+              
+       - name: Zip AB and upload to Bitsend  
+         run: |
+              mkdir final
+              zip -r final/GSI-AB.zip /home/runner/work/actions_build_ErfanGSIs/actions_build_ErfanGSIs/ErfanGSIs/output/*-AB-*.img
+              curl -sL https://git.io/file-transfer | sh
               ./transfer bit final/GSI-AB.zip
-              ./transfer bit final/GSI-INFO.zip
+       
+       - name: Zip and upload build info
+         run: |
+              mkdir final
+              zip -r final/GSI-spec.zip /home/runner/work/actions_build_ErfanGSIs/actions_build_ErfanGSIs/ErfanGSIs/output/*-Aonly-*.txt
+              curl -sL https://git.io/file-transfer | sh
+              ./transfer bit final/GSI-spec.zip
 
          
             
