@@ -14,7 +14,7 @@ on:
     types: [started]
     
 env:
-  ROM_URL: https://mirrors.lolinet.com/firmware/lenovo/YT-X705L/YT-X705L_S001028_200313_ROW.zip
+  ROM_URL: https://mirrors.lolinet.com/firmware/lenovo/l38111/L38111_ROW_SECURE_USER_Q00024.0_P_ROW_11.0.224_ST_191126_qpst.zip
   ROM_NAME: ZUI
   TZ: Asia/Shanghai
 
