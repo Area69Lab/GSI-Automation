@@ -14,8 +14,8 @@ on:
     types: [started]
     
 env:
-  ROM_URL: http://download999.mediafire.com/w0hstq65764g/1mitwpbjkrqduxh/Nokia_1_Plus_OSTLA_ANT-0980-0-00WW-B02_000_OST.zip
-  ROM_NAME: Generic:Nokia-AndroidGo
+  ROM_URL: http://tdrive.manofuranium.workers.dev/Oneplus_5_[PORT].zip
+  ROM_NAME: OxygenOS:OOS-Rosy-Port
   TZ: Asia/Shanghai
 
 jobs:
