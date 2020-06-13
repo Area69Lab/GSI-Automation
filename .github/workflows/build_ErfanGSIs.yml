@@ -14,8 +14,8 @@ on:
     types: [started]
     
 env:
-  ROM_URL: https://ayera.dl.sourceforge.net/project/myworkpl2/EVO-X/EvolutionX_4.4_Plate2-10.0-20200608-1900-UNOFFICIAL.zip
-  ROM_NAME: Generic:EvoX
+  ROM_URL: https://mirrors.lolinet.com/firmware/lenovo/TB-8505FS/TB-8505FS_S100128_200423_BMP.zip
+  ROM_NAME: ZUI
   TZ: Asia/Shanghai
 
 jobs:
