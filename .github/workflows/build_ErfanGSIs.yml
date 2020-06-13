@@ -14,8 +14,8 @@ on:
     types: [started]
     
 env:
-  ROM_URL: http://tdrive.manofuranium.workers.dev/Oneplus_5_[PORT].zip
-  ROM_NAME: OxygenOS:OOS-Rosy-Port
+  ROM_URL: https://svwh.dl.sourceforge.net/project/miuiromports//Whyred/MIUI%20Hellas%20XTRV/MIUI_Hellas_XTRV_20.6.4_port_whyred_v12_10_%40theprofessorRN5P.zip
+  ROM_NAME: MIUI:Hellas-XTRV
   TZ: Asia/Shanghai
 
 jobs:
