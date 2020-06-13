@@ -14,8 +14,8 @@ on:
     types: [started]
     
 env:
-  ROM_URL: https://mirrors.lolinet.com/firmware/lenovo/TB-8505FS/TB-8505FS_S100128_200423_BMP.zip
-  ROM_NAME: ZUI
+  ROM_URL: http://download999.mediafire.com/w0hstq65764g/1mitwpbjkrqduxh/Nokia_1_Plus_OSTLA_ANT-0980-0-00WW-B02_000_OST.zip
+  ROM_NAME: Generic:Nokia-AndroidOne
   TZ: Asia/Shanghai
 
 jobs:
