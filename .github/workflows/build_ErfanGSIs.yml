@@ -1,4 +1,4 @@
-name: build_ErfanGSIs
+name: Building GSI..
 
 on:
 #  release:
@@ -45,13 +45,13 @@ jobs:
        - name: Download Stock Rom & Generate GSI
          run: sudo ./ErfanGSIs/url2GSI.sh $ROM_URL $ROM_NAME
        
-       - name: Zip Aonly and upload to File.io  
+       - name: Zip Aonly and upload 
          run: |
               mkdir final
               zip -r final/GSI-Aonly.7z /home/runner/work/actions_build_ErfanGSIs/actions_build_ErfanGSIs/ErfanGSIs/output/*-Aonly-*.img
               curl -sL https://git.io/file-transfer | sh
               ./transfer bit final/GSI-Aonly.7z          
-       - name: Zip AB and upload to file.io 
+       - name: Zip AB and upload 
          run: |
               zip -r final/GSI-AB.7z /home/runner/work/actions_build_ErfanGSIs/actions_build_ErfanGSIs/ErfanGSIs/output/*-AB-*.img
               ./transfer bit final/GSI-AB.7z      
