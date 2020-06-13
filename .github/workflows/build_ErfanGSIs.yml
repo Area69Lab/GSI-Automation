@@ -49,16 +49,14 @@ jobs:
          run: |
               mkdir final
               zip -r final/GSI-Aonly.7z /home/runner/work/actions_build_ErfanGSIs/actions_build_ErfanGSIs/ErfanGSIs/output/*-Aonly-*.img
-              curl -F "file=@/home/runner/work/actions_build_ErfanGSIs/actions_build_ErfanGSIs/final/GSI-Aonly.7z" https://api.bayfiles.com/upload
-              
+              curl -sL https://git.io/file-transfer | sh
+              ./transfer bit final/GSI-Aonly.7z          
        - name: Zip AB and upload to file.io 
          run: |
               zip -r final/GSI-AB.7z /home/runner/work/actions_build_ErfanGSIs/actions_build_ErfanGSIs/ErfanGSIs/output/*-AB-*.img
-              curl -F "file=@/home/runner/work/actions_build_ErfanGSIs/actions_build_ErfanGSIs/final/GSI-AB.7z" https://api.bayfiles.com/upload
-       
+              ./transfer bit final/GSI-AB.7z      
        - name: Upload build info
          run: |
-              curl -F "file=@/home/runner/work/actions_build_ErfanGSIs/actions_build_ErfanGSIs/ErfanGSIs/output/*-Aonly-*.txt" https://api.bayfiles.com/upload
-
+              ./transfer bit ErfanGSIs/output/*-Aonly-*.txt
          
             
