@@ -14,8 +14,8 @@ on:
     types: [started]
     
 env:
-  ROM_URL: https://mirrors.lolinet.com/firmware/lenovo/YT3-X50F/YT3-X50F_USR_S000001_1706300017_Q1241_HK.zip
-  ROM_NAME: ZUI
+  ROM_URL: https://ayera.dl.sourceforge.net/project/myworkpl2/EVO-X/EvolutionX_4.4_Plate2-10.0-20200608-1900-UNOFFICIAL.zip
+  ROM_NAME: Generic:EvoX
   TZ: Asia/Shanghai
 
 jobs:
