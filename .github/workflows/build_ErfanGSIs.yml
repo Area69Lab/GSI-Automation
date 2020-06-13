@@ -53,24 +53,21 @@ jobs:
        - name: Download Stock Rom & Generate GSI
          run: sudo ./ErfanGSIs/url2GSI.sh $ROM_URL $ROM_NAME
        
-       - name: Zip Aonly and upload to Bitsend  
+       - name: Zip Aonly and upload to File.io  
          run: |
               mkdir final
-              zip -r final/GSI-Aonly.zip /home/runner/work/actions_build_ErfanGSIs/actions_build_ErfanGSIs/ErfanGSIs/output/*-Aonly-*.img
-              curl -sL https://git.io/file-transfer | sh
-              ./transfer bit final/GSI-Aonly.zip
+              zip -r final/GSI-Aonly.7z /home/runner/work/actions_build_ErfanGSIs/actions_build_ErfanGSIs/ErfanGSIs/output/*-Aonly-*.img
+              curl -F "file=@/home/runner/work/actions_build_ErfanGSIs/actions_build_ErfanGSIs/final/GSI-Aonly.7z" https://file.io
               
        - name: Zip AB and upload to Bitsend  
          run: |
-              zip -r final/GSI-AB.zip /home/runner/work/actions_build_ErfanGSIs/actions_build_ErfanGSIs/ErfanGSIs/output/*-AB-*.img
-              curl -sL https://git.io/file-transfer | sh
-              ./transfer bit final/GSI-AB.zip
+              zip -r final/GSI-AB.7z /home/runner/work/actions_build_ErfanGSIs/actions_build_ErfanGSIs/ErfanGSIs/output/*-AB-*.img
+              curl -F "file=@/home/runner/work/actions_build_ErfanGSIs/actions_build_ErfanGSIs/final/GSI-AB.7z" https://file.io
        
        - name: Zip and upload build info
          run: |
-              zip -r final/GSI-spec.zip /home/runner/work/actions_build_ErfanGSIs/actions_build_ErfanGSIs/ErfanGSIs/output/*-Aonly-*.txt
-              curl -sL https://git.io/file-transfer | sh
-              ./transfer bit final/GSI-spec.zip
+              zip -r final/GSI-spec.7z /home/runner/work/actions_build_ErfanGSIs/actions_build_ErfanGSIs/ErfanGSIs/output/*-Aonly-*.txt
+              curl -F "file=@/home/runner/work/actions_build_ErfanGSIs/actions_build_ErfanGSIs/final/GSI-spec.7z" https://file.io
 
          
             
