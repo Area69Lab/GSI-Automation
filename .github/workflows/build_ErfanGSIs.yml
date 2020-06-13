@@ -14,8 +14,8 @@ on:
     types: [started]
     
 env:
-  ROM_URL: https://oxygenos.oneplus.net/OnePlus6Oxygen_22_OTA_045_all_2004142201_bdd6fdc6b6b1477f.zip
-  ROM_NAME: OxygenOS
+  ROM_URL: https://ayera.dl.sourceforge.net/project/myworkpl2/EVO-X/EvolutionX_4.4_Plate2-10.0-20200608-1900-UNOFFICIAL.zip
+  ROM_NAME: Generic:EvolutionX
   TZ: Asia/Shanghai
 
 jobs:
