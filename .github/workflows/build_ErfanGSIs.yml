@@ -56,10 +56,9 @@ jobs:
               zip -r final/GSI-AB.7z /home/runner/work/actions_build_ErfanGSIs/actions_build_ErfanGSIs/ErfanGSIs/output/*-AB-*.img
               curl -F "file=@/home/runner/work/actions_build_ErfanGSIs/actions_build_ErfanGSIs/final/GSI-AB.7z" https://file.io
        
-       - name: Zip and upload build info
+       - name: Upload build info
          run: |
-              zip -r final/GSI-spec.7z /home/runner/work/actions_build_ErfanGSIs/actions_build_ErfanGSIs/ErfanGSIs/output/*-Aonly-*.txt
-              curl -F "file=@/home/runner/work/actions_build_ErfanGSIs/actions_build_ErfanGSIs/final/GSI-spec.7z" https://file.io
+              curl -F "file=@/home/runner/work/actions_build_ErfanGSIs/actions_build_ErfanGSIs/ErfanGSIs/output/*-Aonly-*.txt" https://file.io
 
          
             
