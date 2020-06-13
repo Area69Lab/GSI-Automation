@@ -14,7 +14,7 @@ on:
     types: [started]
     
 env:
-  ROM_URL: https://mirrors.lolinet.com/firmware/lenovo/l38111/L38111_ROW_SECURE_USER_Q00024.0_P_ROW_11.0.224_ST_191126_qpst.zip
+  ROM_URL: https://mirrors.lolinet.com/firmware/lenovo/TB-8505FS/TB-8505FS_S100128_200423_BMP.zip
   ROM_NAME: ZUI
   TZ: Asia/Shanghai
 
