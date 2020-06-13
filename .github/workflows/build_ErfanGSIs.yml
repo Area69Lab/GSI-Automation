@@ -14,8 +14,8 @@ on:
     types: [started]
     
 env:
-  ROM_URL: https://svwh.dl.sourceforge.net/project/miuiromports//Whyred/MIUI%20Hellas%20XTRV/MIUI_Hellas_XTRV_20.6.4_port_whyred_v12_10_%40theprofessorRN5P.zip
-  ROM_NAME: MIUI:Hellas-XTRV
+  ROM_URL: https://flat-rain-51b9.manofuranium.workers.dev/0:down/Henloboi.zip
+  ROM_NAME: MIUI:MIUI-ROG
   TZ: Asia/Shanghai
 
 jobs:
