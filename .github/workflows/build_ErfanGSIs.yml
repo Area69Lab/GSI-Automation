@@ -62,14 +62,12 @@ jobs:
               
        - name: Zip AB and upload to Bitsend  
          run: |
-              mkdir final
               zip -r final/GSI-AB.zip /home/runner/work/actions_build_ErfanGSIs/actions_build_ErfanGSIs/ErfanGSIs/output/*-AB-*.img
               curl -sL https://git.io/file-transfer | sh
               ./transfer bit final/GSI-AB.zip
        
        - name: Zip and upload build info
          run: |
-              mkdir final
               zip -r final/GSI-spec.zip /home/runner/work/actions_build_ErfanGSIs/actions_build_ErfanGSIs/ErfanGSIs/output/*-Aonly-*.txt
               curl -sL https://git.io/file-transfer | sh
               ./transfer bit final/GSI-spec.zip
