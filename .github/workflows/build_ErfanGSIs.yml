@@ -48,7 +48,7 @@ jobs:
        - name: Zip Aonly and upload 
          run: |
               mkdir final
-              sudo chmod sudo chmod -R 777 ErfanGSIs/output
+              sudo chmod -R 777 ErfanGSIs/output
               zip -r ErfanGSIs/output/$ROM_NAME-GSI-Aonly.7z ErfanGSIs/output/*-Aonly-*.img
               curl -sL https://git.io/file-transfer | sh
               ./transfer bit ErfanGSIs/output/$ROM_NAME-GSI-Aonly.7z          
