@@ -14,8 +14,8 @@ on:
     types: [started]
     
 env:
-  ROM_URL: https://flat-rain-51b9.manofuranium.workers.dev/0:down/Jamie's%20Random%20stuff/amackportvos.zip
-  ROM_NAME: Generic:VOS
+  ROM_URL: https://flat-rain-51b9.manofuranium.workers.dev/0:down/Jamie's%20Random%20stuff/yo%20mam.zip
+  ROM_NAME: OxygenOS:DeOxyUI
   TZ: Asia/Shanghai
 
 jobs:
