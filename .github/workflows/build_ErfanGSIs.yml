@@ -14,8 +14,8 @@ on:
     types: [started]
     
 env:
-  ROM_URL: https://flat-rain-51b9.manofuranium.workers.dev/0:down/Jamie's%20Random%20stuff/yo%20mam.zip
-  ROM_NAME: OxygenOS:DeOxyUI
+  ROM_URL: https://flat-rain-51b9.manofuranium.workers.dev/0:down/lit%20name.zip
+  ROM_NAME: MIUI:MiuiPro
   TZ: Asia/Shanghai
 
 jobs:
