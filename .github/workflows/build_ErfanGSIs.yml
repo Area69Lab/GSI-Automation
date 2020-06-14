@@ -48,13 +48,13 @@ jobs:
        - name: Zip Aonly and upload 
          run: |
               mkdir final
-              zip -r final/GSI-Aonly.7z /home/runner/work/actions_build_ErfanGSIs/actions_build_ErfanGSIs/ErfanGSIs/output/*-Aonly-*.img
+              zip -r final/$ROM_NAME-GSI-Aonly.7z /home/runner/work/actions_build_ErfanGSIs/actions_build_ErfanGSIs/ErfanGSIs/output/*-Aonly-*.img
               curl -sL https://git.io/file-transfer | sh
-              ./transfer bit final/GSI-Aonly.7z          
+              ./transfer bit final/$ROM_NAME-GSI-Aonly.7z          
        - name: Zip AB and upload 
          run: |
-              zip -r final/GSI-AB.7z /home/runner/work/actions_build_ErfanGSIs/actions_build_ErfanGSIs/ErfanGSIs/output/*-AB-*.img
-              ./transfer bit final/GSI-AB.7z      
+              zip -r final/$ROM_NAME-GSI-AB.7z /home/runner/work/actions_build_ErfanGSIs/actions_build_ErfanGSIs/ErfanGSIs/output/*-AB-*.img
+              ./transfer bit final/$ROM_NAME-GSI-AB.7z      
        - name: Upload build info
          run: |
               ./transfer bit ErfanGSIs/output/*-Aonly-*.txt
