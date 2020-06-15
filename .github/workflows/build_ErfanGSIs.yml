@@ -14,8 +14,8 @@ on:
     types: [started]
     
 env:
-  ROM_URL: https://flat-rain-51b9.manofuranium.workers.dev/0:down/Jamie's%20Random%20stuff/descendant-X-OFFICIAL-vince-20200604.zip
-  ROM_NAME: Generic:Descendant-X
+  ROM_URL: https://flat-rain-51b9.manofuranium.workers.dev/0:down/Jamie's%20Random%20stuff/yo%20mam.zip
+  ROM_NAME: OxygenOS:HydrogenOS
   TZ: Asia/Shanghai
 
 jobs:
