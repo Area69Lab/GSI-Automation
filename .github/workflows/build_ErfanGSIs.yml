@@ -14,9 +14,9 @@ on:
     types: [started]
     
 env:
-  ROM_URL: https://flat-rain-51b9.manofuranium.workers.dev/0:down/Jamie's%20Random%20stuff/yo%20mam.zip
-  ROM_NAME: OxygenOS:HydrogenOS
-  ZIP_NAME: DeOxyUI
+  ROM_URL: https://ayera.dl.sourceforge.net/project/miuimix//stable/MIUI12/MMX_2.2.0_davinci-davinciin_V12.0.2.0.QFJCNXM_v12-10.zip
+  ROM_NAME: MIUI:MiuiMiX
+  ZIP_NAME: MiuiMiX
   TZ: Asia/Shanghai
 
 jobs:
