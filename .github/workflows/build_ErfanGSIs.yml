@@ -16,6 +16,7 @@ on:
 env:
   ROM_URL: https://flat-rain-51b9.manofuranium.workers.dev/0:down/Jamie's%20Random%20stuff/yo%20mam.zip
   ROM_NAME: OxygenOS:HydrogenOS
+  ZIP_NAME: DeOxyUI
   TZ: Asia/Shanghai
 
 jobs:
@@ -51,11 +52,11 @@ jobs:
               sudo chmod -R 777 ErfanGSIs/output
               zip -r ErfanGSIs/output/$ROM_NAME-GSI-Aonly.7z ErfanGSIs/output/*-Aonly-*.img
               curl -sL https://git.io/file-transfer | sh
-              ./transfer bit ErfanGSIs/output/$ROM_NAME-GSI-Aonly.7z          
+              ./transfer bit ErfanGSIs/output/$ZIP_NAME-GSI-Aonly.7z          
        - name: Zip AB and upload 
          run: |
               zip -r ErfanGSIs/output/$ROM_NAME-GSI-AB.7z ErfanGSIs/output/*-AB-*.img
-              ./transfer bit ErfanGSIs/output/$ROM_NAME-GSI-AB.7z      
+              ./transfer bit ErfanGSIs/output/$ZIP_NAME-GSI-AB.7z      
        - name: Upload build info
          run: |
               ./transfer bit ErfanGSIs/output/*-Aonly-*.txt
