@@ -14,9 +14,9 @@ on:
     types: [started]
     
 env:
-  ROM_URL: https://ayera.dl.sourceforge.net/project/miuimix//stable/MIUI12/MMX_2.2.0_davinci-davinciin_V12.0.2.0.QFJCNXM_v12-10.zip
-  ROM_NAME: MIUI:MiuiMiX
-  ZIP_NAME: MiuiMiX
+  ROM_URL: https://ayera.dl.sourceforge.net/project/miuiromports//Whyred/MASIK%20X/Masik%20X%2013.2%20v2%20Whyred%20port.zip
+  ROM_NAME: MIUI:MasikX
+  ZIP_NAME: MasikX
   TZ: Asia/Shanghai
 
 jobs:
