@@ -50,12 +50,12 @@ jobs:
          run: |
               mkdir final
               sudo chmod -R 777 ErfanGSIs/output
-              zip -r ErfanGSIs/output/$ROM_NAME-GSI-Aonly.7z ErfanGSIs/output/*-Aonly-*.img
+              zip -r ErfanGSIs/output/$ZIP_NAME-GSI-Aonly.7z ErfanGSIs/output/*-Aonly-*.img
               curl -sL https://git.io/file-transfer | sh
               ./transfer bit ErfanGSIs/output/$ZIP_NAME-GSI-Aonly.7z          
        - name: Zip AB and upload 
          run: |
-              zip -r ErfanGSIs/output/$ROM_NAME-GSI-AB.7z ErfanGSIs/output/*-AB-*.img
+              zip -r ErfanGSIs/output/$ZIP_NAME-GSI-AB.7z ErfanGSIs/output/*-AB-*.img
               ./transfer bit ErfanGSIs/output/$ZIP_NAME-GSI-AB.7z      
        - name: Upload build info
          run: |
