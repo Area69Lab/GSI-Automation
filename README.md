@@ -7,6 +7,8 @@
 ### Then press the little star next to "fork" and magic will start ! ###
 ### Finally check Upload GSI, check there and you can download ! ###
 
+For how to set the variables, check [guide.md](https://github.com/JamieHoSzeYui/Area69Lab/blob/master/guide.md)
+
 
 ## P.S. : Some ROM names, will change after I use my custom fork##
 ### 9 Pie： ### 
