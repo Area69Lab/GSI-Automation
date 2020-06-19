@@ -39,6 +39,6 @@ ColorOS
 Pixel
 
 # Thanks to
-# @Together08 for making this possible
-# @JamieHoszeUi for translating repo and making it simple
-# @github for let us run these codes
+## @Together08 for making this possible
+## @JamieHoszeUi for translating repo and making it simple
+## @github for letting us run these codes
