@@ -1,4 +1,4 @@
-#GSI-Automation #
+# GSI-Automation 
 
 ## This is a script to build GSIs with Erfan's tool with Github Star. ##
 ## Instructions : ##
