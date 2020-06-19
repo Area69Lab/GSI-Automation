@@ -1,4 +1,4 @@
-# actions_build_ErfanGSIs #
+#GSI-Automation #
 
 ## This is a script to build GSIs with Erfan's tool with Github Star. ##
 ## Instructions : ##
@@ -37,3 +37,8 @@ ColorOS
 ### 11 R： ##
 > Generic	
 Pixel
+
+#Thanks to
+@Together08 for making this possible
+@JamieHoszeUi for translating repo and making it simple
+@github for let us run these codes
