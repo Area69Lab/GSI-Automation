@@ -10,7 +10,7 @@
 For how to set the variables, check [guide.md](https://github.com/JamieHoSzeYui/Area69Lab/blob/master/guide.md)
 
 
-## P.S. : Some ROM names, will change after I use my custom fork##
+## P.S. : Some ROM names, will change after I use my custom fork ##
 ### 9 Pie： ### 
 > ColorOS	
 Flyme
