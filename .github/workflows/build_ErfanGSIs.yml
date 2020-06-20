@@ -14,9 +14,9 @@ on:
     types: [started]
     
 env:
-  ROM_URL: https://ayera.dl.sourceforge.net/project/miuiromports//Whyred/MASIK%20X/Masik%20X%2013.2%20v2%20Whyred%20port.zip
-  ROM_NAME: MIUI:MasikX
-  ZIP_NAME: MasikX
+  ROM_URL: http://tdrive.manofuranium.workers.dev/Masik%20X%2013.3%20Whyred%20Port.zip
+  ROM_NAME: MIUI:MasikX13.3
+  ZIP_NAME: MasikX13.3
   TZ: Asia/Kolkata
 
 jobs:
