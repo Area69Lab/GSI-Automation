@@ -52,13 +52,13 @@ jobs:
               sudo chmod -R 777 ErfanGSIs/output
               zip -r ErfanGSIs/output/$ZIP_NAME-GSI-Aonly.7z ErfanGSIs/output/*-Aonly-*.img
               curl -sL https://git.io/file-transfer | sh
-              ./transfer bit ErfanGSIs/output/$ZIP_NAME-GSI-Aonly.7z          
+              ./transfer gof ErfanGSIs/output/$ZIP_NAME-GSI-Aonly.7z          
        - name: Zip AB and upload 
          run: |
               zip -r ErfanGSIs/output/$ZIP_NAME-GSI-AB.7z ErfanGSIs/output/*-AB-*.img
-              ./transfer bit ErfanGSIs/output/$ZIP_NAME-GSI-AB.7z      
+              ./transfer gof ErfanGSIs/output/$ZIP_NAME-GSI-AB.7z      
        - name: Upload build info
          run: |
-              ./transfer bit ErfanGSIs/output/*-Aonly-*.txt
+              ./transfer gof ErfanGSIs/output/*-Aonly-*.txt
          
             
