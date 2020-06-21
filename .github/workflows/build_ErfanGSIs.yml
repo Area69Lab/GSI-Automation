@@ -57,8 +57,8 @@ jobs:
          run: |
               zip -r ErfanGSIs/output/$ZIP_NAME-GSI-AB.7z ErfanGSIs/output/*-AB-*.img
               ./transfer bit ErfanGSIs/output/$ZIP_NAME-GSI-AB.7z      
-       - name: Upload build info
+       - name: Print build info
          run: |
-              ./transfer bit ErfanGSIs/output/*-Aonly-*.txt
+              cat ErfanGSIs/output/*-Aonly-*.txt
          
             
