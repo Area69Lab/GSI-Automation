@@ -13,30 +13,47 @@ For how to set the variables, check [guide.md](https://github.com/JamieHoSzeYui/
 ## P.S. : Some ROM names, will change after I use my custom fork ##
 ### 9 Pie： ### 
 > ColorOS	
-Flyme
-Generic
-MIUI	
-Moto	
-Nubia	
-OneUI	
-OxygenOS	
-Pixel	
-Xperia	
-ZUI	
-ZenUI
-JoyUI (thanks to Vega)
-RogUI (thanks to Vega)
-VOS (Thanks to Vega)
+> Flyme
+> Generic
+> MIUI	
+> Moto	
+> Nubia	
+> OneUI	
+> OxygenOS	
+> Pixel	
+> Xperia	
+> ZUI	
+> ZenUI
+> JoyUI (thanks to Vega)
+> RogUI (thanks to Vega)
+> VOS (Thanks to Vega)
 ### 10 Q： ###
 > Generic
-MIUI	
-OxygenOS
-Pixel
-ZenUI (thanks to Vega)
-ColorOS
-### 11 R： ##
+> MIUI	
+> OxygenOS
+> Pixel
+> ZenUI (thanks to Vega)
+> ColorOS
+### 11 R： ###
 > Generic	
-Pixel
+> Pixel
+### MIR: ###
+You can change cloud for uploading your options are
+
+|  Name   | Site  | Limit | Provider |
+|  ----  | ----  |  ----  |  ----  |
+| Airportal | https://aitportal.cn/ | - | Aliyun |
+| bitSend | https://bitsend.jp/ | - | OVH |
+| CatBox | https://catbox.moe/ | 100MB | Psychz |
+| CowTransfer | https://www.cowtransfer.com/ | 2GB | Qiniu |
+| GoFile | https://gofile.io/ | - | - |
+| TmpLink | https://tmp.link/ | - | - |
+| Vim-cn | https://img.vim-cn.com/ | 100MB | CloudFlare |
+| WenShuShu | https://www.wenshushu.cn/ | 5GB | QCloud |
+| WeTransfer | https://wetransfer.com/ | 2GB | CloudFront |
+| FileLink | https://filelink.io/ | - | GCE |
+| Transfer.sh | https://transfer.sh/ | - | Hetzner |
+| Lanzous | https://www.lanzous.com/ | login only | - |
 
 # Thanks to
 ## @Together08 for making this possible
