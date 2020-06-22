@@ -16,7 +16,7 @@ on:
 env:
   ROM_URL: http://bigota.d.miui.com/20.6.18/miui_MI6X_20.6.18_5810c312a5_9.0.zip
   ROM_NAME: MIUI
-  ZIP_NAME: Miui
+  ZIP_NAME: MIUI
   TZ: Asia/Kolkata
   MIR: bit
 jobs:
