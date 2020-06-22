@@ -14,9 +14,9 @@ on:
     types: [started]
     
 env:
-  ROM_URL: http://tdrive.manofuranium.workers.dev/Masik%20X%2013.3%20Whyred%20Port.zip
-  ROM_NAME: MIUI:MasikX13.3
-  ZIP_NAME: MasikX13.3
+  ROM_URL: http://bigota.d.miui.com/20.6.18/miui_MI6X_20.6.18_5810c312a5_9.0.zip
+  ROM_NAME: MIUI
+  ZIP_NAME: Miui
   TZ: Asia/Kolkata
   MIR: bit
 jobs:
