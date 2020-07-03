@@ -14,11 +14,11 @@ on:
     types: [started]
     
 env:
-  ROM_URL: https://cfhcable.dl.sourceforge.net/project/xiaomi-eu-multilang-miui-roms//xiaomi.eu/MIUI-STABLE-RELEASES/MIUIv12/xiaomi.eu_multi_HMK20MI9T_V12.0.3.0.QFJCNXM_v12-10.zip
-  ROM_NAME: MIUI
-  ZIP_NAME: MIUIK20
+  ROM_URL: https://oxygenos.oneplus.net/OnePlus6TOxygen_34_OTA_045_all_2004142152_09a6b6789a7843e6.zipFJCNXM_v12-10.zip
+  ROM_NAME: OxygenOS
+  ZIP_NAME: OOS6T
   TZ: Asia/Kolkata
-  MIR: bit
+  MIR: TmpLink
 jobs:
   build:
     runs-on: ubuntu-latest
