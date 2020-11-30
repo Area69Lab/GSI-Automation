@@ -2,9 +2,6 @@ name: Building GSI..
 
 on: [push]
 
-  watch:
-    types: [started]
-    
 env:
   ROM_URL: https://download.c.realme.com/osupdate/RMX1901EX_11_OTA_1040_all_BbUuFdfQYcIr.ozip
   ROM_NAME: ColorOS
