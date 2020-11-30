@@ -38,7 +38,8 @@ For how to set the variables, check [guide.md](https://github.com/JamieHoSzeYui/
 > Generic	
 > Pixel
 
-#Sourceforge
+# Sourceforge
+
 setup some secrets in settings --> secrets --> new secret
 
 ```
