@@ -3,9 +3,9 @@ name: Building GSI..
 on: [push]
 
 env:
-  ROM_URL: https://download.c.realme.com/osupdate/RMX1901EX_11_OTA_1040_all_BbUuFdfQYcIr.ozip
-  ROM_NAME: ColorOS
-  ZIP_NAME: Realmeme
+  ROM_URL: https://otafsg1.h2os.com/patch/amazone2/GLO/OnePlus5TOxygen/OnePlus5TOxygen_43.J.69_GLO_069_2010292144/OnePlus5TOxygen_43_OTA_069_all_2010292144_de4a6fa.zip
+  ROM_NAME: OxygenOS
+  ZIP_NAME: Oxygen-test
   TZ: Asia/Kolkata
 jobs:
   build:
@@ -31,7 +31,7 @@ jobs:
 
        
        - name: Clone ErfanGSI Source Code
-         run: git clone --recurse-submodules https://github.com/nnippon/ErfanGSIs
+         run: git clone --recurse-submodules https://github.com/erfanoabdi/ErfanGSIs.git
        
        - name: Setting up ErfanGSI requirements
          run: |
@@ -74,7 +74,7 @@ jobs:
               expect \"sftp> \"
               send \"cd ${{ secrets.SFDIR }}\r\"
               set timeout -1
-              send \"put $ZIP_NAME-GSI-Aonly.7z\r\"
+              send \"put $ZIP_NAME-GSI-AB.7z\r\"
               expect \"Uploading\"
               expect \"100%\"
               expect \"sftp>\"
