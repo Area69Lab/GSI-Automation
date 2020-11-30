@@ -1,15 +1,7 @@
 name: Building GSI..
 
-on:
-#  release:
-#    types: [published]
-#  push:
-#    branches:
-#      - master
-#    paths:
-#      - '.config'
-#  schedule:
-#    - cron: 0 8 * * 5
+on: [push]
+
   watch:
     types: [started]
     

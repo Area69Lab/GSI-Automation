@@ -4,8 +4,8 @@
 ## Instructions : ##
 ### Firstly, fork this repo. ###
 ### After that, edit build_ErfanGSIs.yml，Change ROM_URL into your base FW link (Direct link plox)；Change ROM_NAME to you rom name, e.g. OxygenOS, Generic, etc.  ###
-### Then press the little star next to "fork" and magic will start ! ###
-### Finally check Upload GSI, check there and you can download ! ###
+### After commit the workflow should Start
+### Finally check Sourceforge, check there and you can download ! ###
 
 For how to set the variables, check [guide.md](https://github.com/JamieHoSzeYui/Area69Lab/blob/master/guide.md)
 
