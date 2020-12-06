@@ -27,7 +27,7 @@ jobs:
        - name: Initializing environment
          run: |
             sudo -E apt-get -qq update
-            sudo -E apt-get -qq install git openjdk-8-jdk wget expect
+            sudo -E apt-get -qq install git openjdk-8-jdk wget expect p7zip-full p7zip-rar
 
        
        - name: Clone ErfanGSI Source Code
@@ -47,7 +47,7 @@ jobs:
               mkdir final
               sudo chmod -R 777 ErfanGSIs/output
               cd ErfanGSIs/output
-              zip -r $ZIP_NAME-GSI-Aonly.7z *-Aonly-*.img
+              7z a $ZIP_NAME-GSI-Aonly.7z *-Aonly-*.img
               expect -c " 
               spawn sftp ${{ secrets.SFUSER }}@frs.sourceforge.net
               expect \"yes/no\"
@@ -66,7 +66,7 @@ jobs:
        - name: Zip AB and upload 
          run: |
               cd ErfanGSIs/output
-              zip -r $ZIP_NAME-GSI-AB.7z *-AB-*.img
+              7z a $ZIP_NAME-GSI-AB.7z *-AB-*.img
               expect -c " 
               spawn sftp ${{ secrets.SFUSER }}@frs.sourceforge.net
               expect \"Password\"        
