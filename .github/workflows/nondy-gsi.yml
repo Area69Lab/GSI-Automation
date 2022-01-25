@@ -3,10 +3,10 @@ name: Building GSI..
 on: [push]
 
 env:
-  ROM_URL: https://otafsg1.h2os.com/patch/amazone2/GLO/OnePlus5TOxygen/OnePlus5TOxygen_43.J.69_GLO_069_2010292144/OnePlus5TOxygen_43_OTA_069_all_2010292144_de4a6fa.zip
-  ROM_NAME: OxygenOS
-  ZIP_NAME: Oxygen-test
-  TZ: Asia/Kolkata
+  ROM_URL: https://bigota.d.miui.com/V10.3.4.0.PFQMIXM/miui_LAURELSPROUTGlobal_V10.3.4.0.PFQMIXM_96c5aa3fd6_9.0.zip
+  ROM_NAME: Generic
+  ZIP_NAME: laurel-pie
+  TZ: Europe/Istanbul
 jobs:
   build:
     runs-on: ubuntu-18.04
